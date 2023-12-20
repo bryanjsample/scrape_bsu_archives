@@ -4,12 +4,10 @@ import os
 import img2pdf
 import urllib.request
 
-#TEST
-
 def main():
     #USER INPUT
     #INITIALIZE SOURCE WHERE ALL IMAGES WILL BE SAVED
-    src = '/Users/bryansample/vscode/alumni/images'
+    src = ''
 
     #set url to BSU archives
     url = 'https://www.bemidjistate.edu/library/archives/index.html'
