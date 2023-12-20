@@ -4,6 +4,8 @@ import os
 import img2pdf
 import urllib.request
 
+#TEST
+
 def main():
     #USER INPUT
     #INITIALIZE SOURCE WHERE ALL IMAGES WILL BE SAVED
