@@ -11,12 +11,13 @@
 
 ---
 
-1. **Form a directory in which you wish to save all images.
+1. **Form a directory in which you wish to save all images.**
 2. **Open download_images.py**
    1. Edit line 12
       `src = ''`
       1. Paste the pile path of your target directory.
-   2. Save the file and execute.
+      2. Save the file.
+3. **Execute the script.**
 
 ---
 
