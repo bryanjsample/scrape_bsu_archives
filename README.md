@@ -1,6 +1,6 @@
 # Download All Images From The Bemidji State University Archives
 
->The goal of this python script is to download every image that is not a yearbook from the [Bemidji State University Archives](midjistate.edu/library/archives/index.html).
+>The goal of this python script is to download every image that is not a yearbook from the [Bemidji State University Archives](https://www.bemidjistate.edu/library/archives/index.html).
 >When executed, the script will make directories to organize each image that is downloaded.
 >  - Each image is downlaoded in JPEG format.
 >     - Some images are only available in TIFF format. The script will download them as JPEG images.
