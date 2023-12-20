@@ -5,18 +5,18 @@ import rename_images
 import combine_images
 
 def main():
-    # #ALL YEARS
-    # #obtain all years
-    # yearbooks = list(range(1957, 1972))
+    #ALL YEARS
+    #obtain all years
+    yearbooks = list(range(1957, 1972))
 
-    #SELECT YEARS
-    #obtain select years ([year1, year2, year3, year4, etc...])
-    yearbooks = [1951]
+    # #SELECT YEARS
+    # #obtain select years ([year1, year2, year3, year4, etc...])
+    # yearbooks = [1951]
 
     #ESTABLISH DIRECTORY IN WHICH ALL IMAGES WILL BE SAVED
     #ENSURE THAT 'YEARBOOKS' DIRECTORY IS CONTAINED WITHIN THIS DIRECTORY
     #ENSURE THAT THERE ARE NO OTHER ITEMS IN DIRECTORY BESIDES 'YEARBOOKS' DIRECTORY
-    src = '/Users/bryansample/vscode/alumni'
+    src = ''
 
     #form directories for year
     make_dirs.create(src, yearbooks)
