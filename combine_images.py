@@ -71,7 +71,7 @@ def counter(iters):
 def move_cover(movePath):
     dir = os.listdir(movePath)
     if '.DS_Store' in dir:
-     #remove any .DS_Store files to enumerate properly
+    #remove any .DS_Store files to enumerate properly
         os.remove(f'{movePath}/.DS_Store')
     dir = os.listdir(movePath)
     #move files back into correct directory to be compiled into pdf
