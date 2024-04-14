@@ -16,8 +16,6 @@ def combine(src, year):
     album = sorted(os.listdir(src))
     #only iterate for half of the length of list
     numimages = range(int(len(album) / 2) + (int(len(album) % 2)))
-
-    print(numimages, type(numimages))
     
     for images in numimages:
             #establish all variables formatted for combine
